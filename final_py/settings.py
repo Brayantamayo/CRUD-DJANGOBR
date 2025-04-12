@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'gestion',
     'widget_tweaks',
-    'drf_yasg',
 ]
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
